@@ -1,6 +1,4 @@
--- Services
-spawn(function()
-  if _G.AutoFarmDiamond then
+
                 local Players = game:GetService("Players")
                 local Workspace = game:GetService("Workspace")
                 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -602,5 +600,3 @@ end
         hopServerWithRetry("No Stronghold Chest found")
     end
 end
-end
-end)
